@@ -35,6 +35,7 @@ public class TC001_VerifyUserIsAbleToAddAddressOrNot_Test extends BaseTest {
 		newAddressPage.getZipcodeTextField().sendKeys(fileutility.readDataFromExcelFile("sheet1", 1, 8));
 		newAddressPage.getPhoneNumberTextField().sendKeys(fileutility.readDataFromExcelFile("sheet1", 1, 9));
 		newAddressPage.getFaxNumberTextField().sendKeys(fileutility.readDataFromExcelFile("sheet1", 1, 10));
+		System.out.println("Data Entered");
 		
 		newAddressPage.getSaveButton().click();
 		

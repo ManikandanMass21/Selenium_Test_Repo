@@ -22,6 +22,8 @@ public class TC002_VerifyUserIsAbleToDeleteAddressOrNot_Test extends BaseTest{
 		
 		wait.until(ExpectedConditions.alertIsPresent());
 		webDriver.switchToAlertAccept(driver);
+		System.out.println("Data Deleted");
+
 		
 		Thread.sleep(3000);
 		webDriver.webPageScreenShot(driver);
